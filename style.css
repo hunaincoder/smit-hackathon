@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(196, 197, 197);
+}
+.nav-link:hover {
+  background-color: orange;
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.contact-section {
+  padding: 50px 0;
+}
+.btn-custom {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #e6b800;
+  color: white;
+}
+.social-icons i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.social-icons i:hover {
+  color: #007bff;
+}
